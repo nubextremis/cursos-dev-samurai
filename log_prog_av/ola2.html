@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá</title>
+</head>
+<body>
+    <script>
+        // pt, en, fr, es
+        
+
+        // pt-br = Olá
+        // pt-pt = Olá
+
+        // en-us = Hi
+        // en-gb = Hello
+
+        
+        do {
+            var idioma = prompt('Qual seu idioma? [pt, en, fr, es]')
+            if (idioma == 'pt') {
+                var variacao = prompt('Por favor, digite a variação: [pt ou br]')
+                if (variacao == 'pt' || variacao == 'br') {
+                    alert("Olá!")
+                } else {
+                    alert("Variação de idioma incorreta")
+                    alert("Recarregue página")
+                }
+            } else if (idioma == 'en') {
+                var variacao = prompt('Por favor, digite a variação: [us ou gb]')
+                if (variacao == 'us') {
+                    alert("Hi!")
+                } else if (variacao == 'gb') {
+                    alert("Hello!")
+                } else {
+                    alert("Variação de idioma incorreta")
+                    alert("Recarregue página")
+                }
+            } else if (idioma == 'fr') {
+                var variacao = prompt('Por favor, digite a variação: []')
+            } else if (idioma == 'es') {
+                var variacao = prompt('Por favor, digite a variação: []')
+            } else {
+                alert('Código do idioma não reconhecido!')
+                alert('Recarregue a página para aplicar novamente!')
+            }
+            var loop = confirm('Deseja continuar a ver idiomas? ')} while (loop == true)
+
+
+
+    </script>
+</body>
+</html>
