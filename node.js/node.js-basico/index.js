@@ -26,7 +26,7 @@ server.get("/hello", (req, res) => {
 // http://localhost:3000/hello/felipe
 // Route params = /hello/:nome
 
-server.get("/hello/:nome/:idade", (req, res) => {
+server.get("/hello/:nome/", (req, res) => {
     const { nome } = req.params;
 
     return res.json({
