@@ -15,7 +15,7 @@ server.get("/hello", (req, res) => {
     
     return res.json({
         title: "Hello World!", 
-        message: `Olá ${nome}, tudo bem?`,
+        message: `Olá ${nome}, tudo bem com você?`,
         idade: idade
     });
 });
